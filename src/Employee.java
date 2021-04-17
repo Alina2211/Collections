@@ -1,4 +1,6 @@
-
+/**
+ * Класс, который содержит описание сущности работника
+ */
 
 public class Employee {
     int id;
@@ -8,6 +10,9 @@ public class Employee {
     Department division;
     int salary;
 
+    /**
+     * Методы, позволяющие получить значения каждого поля
+     */
     public int getId(){
         return id;
     }
@@ -26,6 +31,10 @@ public class Employee {
     public int getSalary(){
         return salary;
     }
+
+    /**
+     * Методы, позволяющие установить значения для каждого поля
+     */
     public void setId(int id){
         this.id=id;
     }
